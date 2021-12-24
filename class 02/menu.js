@@ -46,24 +46,24 @@ numero2 =validarN()
     if(numero1<numero2)
     {
 
-        if (numero1>10 & numero2<50)
+        if ((numero1>10 && numero1<50) && (numero2>10 && numero2<50))
             {
-                alert("Los numeros ingresados estran entre 10 y 50 y son : \n"+numero1+ " y "+numero2);
+                alert("Los numeros ingresados estran entre 10 - 50 y son : \n"+numero1+ " y "+numero2);
             }
         else
             {
-                alert("Los numeros ingresados NO estran entre 10 y 50 y son : \n"+numero1+ " y "+numero2);
+                alert("Los numeros ingresados NO estran entre 10 - 50 y son : \n"+numero1+ " y "+numero2);
             }
     }
     else
     {
-        if (numero2>10 & numero1<50)
+        if ((numero1>10 && numero1<50) && (numero2>10 && numero2<50))
             {
-                alert("Los numeros ingresados estran entre 10 y 50 y son : \n"+numero2+ " y "+numero1);
+                alert("Los numeros ingresados estran entre 10 - 50 y son : \n"+numero2+ " y "+numero1);
             }
         else
             {
-                alert("Los numeros ingresados NO estran entre 10 y 50 y son : \n"+numero2+ " y "+numero1);
+                alert("Los numeros ingresados NO estran entre 10 - 50 y son : \n"+numero2+ " y "+numero1);
             }
     }
 }
