@@ -95,3 +95,5 @@ while (a==0)
     }
     return numero
 }
+
+module.exports= validarN;
