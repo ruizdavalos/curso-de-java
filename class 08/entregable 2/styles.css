@@ -1,0 +1,69 @@
+
+
+body{
+    background-color:teal;
+
+}
+
+.formularioContenedor {
+    border: solid 3px;
+    margin: 3rem auto 3rem auto;
+    background-color: #787878;
+    color: wheat;
+    width: 80rem;    
+    text-align: center;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boton {
+    width: 60%;
+    background-color: red;
+}
+
+h1 {
+    color:maroon;
+}
+
+.datosDelPrestamo h2 {
+    text-align: center;
+}
+
+.datosDelPrestamo {
+    border: solid 2px red;
+    background-color: #787878;
+    width: 80rem;    
+    margin: auto;
+    padding: 2rem;
+}
+
+table {
+    margin: auto;
+}
+
+thead {
+    background-color: rgb(124, 97, 97);
+    color: rgb(174, 194, 184);
+
+}
+
+th{
+    margin: 0 2rem 0 5rem;
+    padding: 1.5rem;
+}
+
+tbody {
+    background-color: rgb(156, 163, 161);
+    text-align: center;
+ 
+}
+
+td{
+    margin-left: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+
+}
